@@ -1,0 +1,20 @@
+criar backend
+    - baixar modulos
+    - configurar api rest
+criar frontend
+    - baixar modulos
+    - configurar webpack
+    - separar componentes da aplicacao (componentes globais, componentes por tela)
+    - criar rotas entre componentes
+    - implementar telas
+        - criar layout da tela
+        - integrar REDUX na APP (createStore na APP, Provider etc..)
+        - implementar rootReducer
+        - inserir dados fake nos reducers
+    - integrar componentes com o REDUX
+    - criar reducers para cada componente controlado pelo REDUX
+    - integrar cada reducer com o rootReducer
+    - criar os action creators
+    - integrar o action creator nos componentes
+    - integrar actions com os middlewares (no caso de chamadas ao rest) const store = applyMiddleware(promise)(createStore)(reducers)
+    - configurar DevToos monitorar State da APP (Redux Plugin)
